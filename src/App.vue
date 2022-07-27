@@ -37,7 +37,8 @@ import ServerSide from "./ServerSide.vue";
 import type { Header, Item } from "vue3-easy-data-table";
 import { ref } from 'vue';
 import { mockClientItems } from "./mock";
-import { usePagination, UsePaginationReturn } from "./useVue3EasyDataTable";
+import { usePagination } from "./useVue3EasyDataTable";
+import type { UsePaginationReturn } from '../types/index'
 // $ref dataTable
 const dataTable = ref();
 

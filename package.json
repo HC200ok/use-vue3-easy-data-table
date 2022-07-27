@@ -1,8 +1,8 @@
 {
   "name": "use-vue3-easy-data-table",
   "private": false,
-  "version": "0.0.1",
-  "type": "module",
+  "version": "0.0.2",
+  "types": "./types/index.d.ts",
   "description": "Composables for customize the vue3-easy-data-table.",
   "keywords": [
     "vue3",

@@ -13,7 +13,7 @@ export type DataTableRef = Ref<null | {
   updatePage: (page: number) => void
 }>
 
-export function useEasyTableFoot(
+export function usePagination(
   dataTableRef: DataTableRef,
 ) {
   // index related
@@ -52,4 +52,4 @@ export function useEasyTableFoot(
   }
 }
 
-export type UseEasyTableFootReturn = ReturnType<typeof useEasyTableFoot>;
+export type UsePaginationReturn = ReturnType<typeof usePagination>;

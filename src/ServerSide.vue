@@ -37,7 +37,7 @@
 import type { Header, Item, ServerOptions } from "vue3-easy-data-table";
 import { mockServerItems } from "./mock";
 import { ref, watch } from "vue";
-import { useEasyTableFoot, UseEasyTableFootReturn } from "./useEasyTableFoot";
+import { usePagination, UsePaginationReturn } from "./useVue3EasyDataTable";
 
 const headers: Header[] = [
   { text: "Name", value: "name" },
@@ -89,7 +89,7 @@ const {
   nextPage,
   prevPage,
   updatePage,
-}: UseEasyTableFootReturn = useEasyTableFoot(dataTable)
+}: UsePaginationReturn = usePagination(dataTable)
 </script>
 
 <style scoped>

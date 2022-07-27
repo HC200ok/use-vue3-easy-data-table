@@ -6,9 +6,9 @@ import path from 'path'
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/useEasyTableFoot.ts'),
-      name: 'useEasyTableFoot',
-      fileName: (format) => `useEasyTableFoot.${format}.js`,
+      entry: 'src/useVue3EasyDataTable.ts',
+      name: 'useVue3EasyDataTable',
+      fileName: (format) => `useVue3EasyDataTable.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],

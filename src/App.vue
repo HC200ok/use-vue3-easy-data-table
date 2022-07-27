@@ -37,7 +37,7 @@ import ServerSide from "./ServerSide.vue";
 import type { Header, Item } from "vue3-easy-data-table";
 import { ref } from 'vue';
 import { mockClientItems } from "./mock";
-import { useEasyTableFoot, UseEasyTableFootReturn } from "./useEasyTableFoot";
+import { usePagination, UsePaginationReturn } from "./useVue3EasyDataTable";
 // $ref dataTable
 const dataTable = ref();
 
@@ -52,7 +52,7 @@ const {
   nextPage,
   prevPage,
   updatePage,
-}: UseEasyTableFootReturn = useEasyTableFoot(dataTable)
+}: UsePaginationReturn = usePagination(dataTable)
 
 const headers: Header[] = [
   { text: "Name", value: "name" },

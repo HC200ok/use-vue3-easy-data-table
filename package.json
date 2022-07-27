@@ -1,8 +1,30 @@
 {
-  "name": "useeasytablefoot",
-  "private": true,
-  "version": "0.0.0",
+  "name": "use-vue3-easy-data-table",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
+  "description": "Composables for customize the vue3-easy-data-table.",
+  "keywords": [
+    "vue3",
+    "hook",
+    "data-table",
+    "vue3-easy-data-table",
+    "vue3-hook",
+    "vue3-composables",
+    "table-foot"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/useVue3EasyDataTable.umd.js",
+  "module": "./dist/useVue3EasyDataTable.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/useVue3EasyDataTable.es.js",
+      "require": "./dist/useVue3EasyDataTable.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",

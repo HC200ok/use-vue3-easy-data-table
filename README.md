@@ -1,4 +1,4 @@
-# Composables for [`vue3-easy-data-table`](https://github.com/HC200ok/vue3-easy-data-table)
+# Composables for customize [`vue3-easy-data-table`](https://github.com/HC200ok/vue3-easy-data-table)
 
 ## Installation
 ```shell

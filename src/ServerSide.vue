@@ -37,8 +37,7 @@
 import type { Header, Item, ServerOptions } from "vue3-easy-data-table";
 import { mockServerItems } from "./mock";
 import { ref, watch } from "vue";
-import { usePagination } from "./useVue3EasyDataTable";
-import type { UsePaginationReturn } from '../types/index'
+import { usePagination, UsePaginationReturn } from "./composables/usePagination";
 
 const headers: Header[] = [
   { text: "Name", value: "name" },

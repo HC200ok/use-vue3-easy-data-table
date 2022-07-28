@@ -17,6 +17,6 @@
     "declarationMap": true,
     "declarationDir": "./types",
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": ["src/composables/*.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

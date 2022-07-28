@@ -1,7 +1,8 @@
 {
   "name": "use-vue3-easy-data-table",
+  "author": "HC200ok",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.1.0",
   "types": "./types/index.d.ts",
   "description": "Composables for customize the vue3-easy-data-table.",
   "keywords": [
@@ -21,8 +22,10 @@
   "main": "./dist/use-vue3-easy-data-table.umd.js",
   "module": "./dist/use-vue3-easy-data-table.es.js",
   "exports": {
-    "import": "./dist/use-vue3-easy-data-table.es.js",
-    "require": "./dist/use-vue3-easy-data-table.umd.js"
+    ".": {
+      "import": "./dist/use-vue3-easy-data-table.es.js",
+      "require": "./dist/use-vue3-easy-data-table.umd.js"
+    }
   },
   "scripts": {
     "dev": "vite",

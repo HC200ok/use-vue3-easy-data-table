@@ -1,10 +1,10 @@
-# Composables for the customization of [`vue3-easy-data-table`](https://github.com/HC200ok/vue3-easy-data-table)
+## Composables for the customization of [`vue3-easy-data-table`](https://github.com/HC200ok/vue3-easy-data-table)
 
-## Installation
+### Installation
 ```shell
 npm install use-vue3-easy-data-table
 ```
-## How to use
+### How to use
 
 - usePagination
   - [Article](https://dev.to/hc200ok/use-a-composable-function-to-customize-the-table-foot-of-vue3-easy-data-table-1i4c)

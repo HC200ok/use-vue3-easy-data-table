@@ -1,16 +1,4 @@
-import { Ref } from 'vue';
-export declare type DataTableRef = Ref<null | {
-    currentPageFirstIndex: number;
-    currentPageLastIndex: number;
-    clientItemsLength: number;
-    maxPaginationNumber: number;
-    currentPaginationNumber: number;
-    isFirstPage: boolean;
-    isLastPage: boolean;
-    nextPage: () => void;
-    prevPage: () => void;
-    updatePage: (page: number) => void;
-}>;
+import type { DataTableRef } from './dataTable';
 export declare function usePagination(dataTableRef: DataTableRef): {
     currentPageFirstIndex: import("vue").ComputedRef<number | undefined>;
     currentPageLastIndex: import("vue").ComputedRef<number | undefined>;

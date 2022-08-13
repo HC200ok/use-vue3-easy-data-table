@@ -2,7 +2,7 @@
   "name": "use-vue3-easy-data-table",
   "author": "HC200ok",
   "private": false,
-  "version": "0.1.2",
+  "version": "0.1.4",
   "types": "./types/index.d.ts",
   "description": "Composables for customize the vue3-easy-data-table.",
   "keywords": [
